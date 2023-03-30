@@ -14,10 +14,7 @@ namespace Lista4PR2Emanuela
 
             // Essa Afirmativa é falsa,pois não teria como atribuir um número com casa decimal em uma variavel de número inteiro ou atribuição inversa.
 
-            // int b1,;
-
-            // Console.WriteLine("Digite o valor da base: ");
-            // b1 = int.Parse(Console.ReadLine());
+          // Console.WriteLine("Não é possivel fazer a atribuição destas variaveis de maneira direta, antes precisamos usar o comando 'nome da variavel que deseja converter.Parse(Console.ReadLine());'");
 
             //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,71 +75,164 @@ namespace Lista4PR2Emanuela
 
             //int num;
 
-            //Console.WriteLine("Digite um número inteiro ");
+            //console.writeline("digite um número inteiro ");
 
-            //num = int.Parse(Console.ReadLine());
+            //num = int.parse(console.readline());
 
 
             //if (((num % 3) == 0) && ((num % 5) == 0) && ((num % 10) == 0)){
-            //    Console.WriteLine("Seu número é divisel por 3,5,10");
+            //    console.writeline("seu número é divisel por 3,5,10");
 
             //}else if( ((num % 3) == 0) && ((num % 5) == 0))
             //{
-            //    Console.WriteLine("Seu número é divisel por 3,5");
+            //    console.writeline("seu número é divisel por 3,5");
 
             //} else if ((num % 3) == 0)
             //{
-            //    Console.WriteLine("Seu número é divisel por 3");
+            //    console.writeline("seu número é divisel por 3");
 
             //}
-            //else if ((num % 5) == 0)
-            //{
-            //    Console.WriteLine("Seu número é divisel por 5");
-            //}
-            //else
-            //    Console.WriteLine("Não é divisivel ");
+           // else if ((num % 5) == 0)
+           // {
+              //  console.writeline("seu número é divisel por 5");
+           // }
+           // else
+             // console.writeline("não é divisivel ");
 
-            //Console.ReadKey();
+            //console.readkey();
 
             //--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
             //Atividade 7
 
+                           //  float tempo, km;
+
+                         //     Console.WriteLine("qual o km da sua casa? :");
+                        //    km = float.Parse(Console.ReadLine());
+
+                      //     if (km <= 12 && km >= 0)
+                     //     {
+                    //    tempo = 14 + 17 + 13 + 15 + 12;
+                   //     Console.WriteLine("voce ira demorar: " + tempo + " minutos");
+                  //   }
+
+                //     else if (km <= 29 && km > 12)
+                 //   {
+                //     tempo = 17 + 13 + 15 + 12;
+               //     Console.WriteLine("voce ira demorar: " + tempo + " minutos");
+              // }
+             // else if (km <= 55 && km > 29)
+            //  {
+             //       tempo = 13 + 15 + 12;
+            //       Console.WriteLine("voce ira demorar: " + tempo + " minutos");
+           //   }
+          //  else if (km <= 82 && km > 55)
+           //   {
+          //   tempo = 15 + 12;
+                    //    Console.WriteLine("voce ira demorar: " + tempo + " minutos");
+                  //  }
+                  //  else if (km <= 100 && km > 82)
+                  //  {
+                   //     tempo = 12;
+                    //    Console.WriteLine("voce ira demorar: " + tempo + " minutos");
+
+                   // }
+
+                   // Console.ReadKey();
 
 
             //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
             //Atividade 8
 
-            float pra, raca, compra,luli;
+                   // int marca, quant;
+                   // double valor, custo, custot, imposto, ll;
 
-            Console.WriteLine("quantos pacotes de ração: ");
-            pra = float.Parse(Console.ReadLine());
+                  //  Console.WriteLine("1- Royal \n 2- Wiskas \n 3- Golden \n 4- Nutrien \n 5- Specialcat \n 6- Marba \n 7- Gatus \n  Digite o numero do produto desejado: ");
+                  //  marca = int.Parse(Console.ReadLine());
+                 //   Console.WriteLine("Digite a quantidade");
+                 //   quant = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Escolha a marca de ração de sua escolha: ");
+                 //   switch (marca)
+                 //   {
+                    //    case 1:
+                   //         valor = 129.50 * quant;
+                      //      custo = valor * 0.775;
+                        //    custot = valor - custo;
+                         //   imposto = custot * 0.33;
+                         //   ll = ((valor - custo) - imposto);
 
-            Console.WriteLine("==========MENU==========");
-            Console.WriteLine("ROYAL");
-            Console.WriteLine("WISKAS");
-            Console.WriteLine("GOLDEN");
-            Console.WriteLine("NUTRIEN");
-            Console.WriteLine("SPECIALCAT");
-            Console.WriteLine("MARBA");
-            Console.WriteLine("GATUS");
-            Console.WriteLine("=======================");
+                           // Console.WriteLine("O lucro liquido é de: R$" + ll);
+                           // break;
 
-           raca  = float.Parse(Console.ReadLine());
+                       // case 2:
+                        //    valor = 182.78 * quant;
+                        //    custo = valor * 0.897;
+                        //    custot = valor - custo;
+                       //     imposto = custot * 0.275;
+                       //     ll = (valor - custo) - imposto;
 
-            switch (raca)
-            {
-                case 1: compra = pra * 129.50;
-                    luli = ((compra - (77.5 / 100) - 33 / 100);
-                        Console.WriteLine("O total da sua compra é:" + compra "E o lucro líquido é: " + luli);
-                        
-            }
+                           // Console.WriteLine("O lucro liquido é de: R$" + ll);
+                         //   break;
 
+                     //   case 3:
+                      //      valor = 159.46 * quant;
+                       //     custo = valor * 0.717;
+                        //    custot = valor - custo;
+                        //    imposto = custot * 0.225;
+                         //   ll = (valor - custo) - imposto;
+                         //  Console.WriteLine("O lucro liquido é de: R$" + ll);
+                            //break;
 
+                       // case 4:
+                       //     valor = 144.80 * quant;
+                       //     custo = valor * 0.889;
+                      //      custot = valor - custo;
+                      //      imposto = custot * 0.25;
+                      //      ll = (valor - custo) - imposto;
 
+                           // Console.WriteLine("O lucro liquido é de: R$" + ll);
+                          //  break;
+
+                       // case 5:
+                       //     valor = 205.40 * quant;
+                       //     custo = valor * 0.8324;
+                       //     custot = valor - custo;
+                        //    imposto = custot * 0.22;
+                         //   ll = (valor - custo) - imposto;
+
+                         //   Console.WriteLine("O lucro liquido é de: R$" + ll);
+                         //   break;
+
+                     //   case 6:
+                        //    valor = 125.10 * quant;
+                         //   custo = valor * 0.904;
+                         //   custot = valor - custo;
+                          //  imposto = custot * 0.179;
+                           // ll = (valor - custo) - imposto;
+
+                          //  Console.WriteLine("O lucro liquido é de: R$" + ll);
+                        //    break;
+
+                      //  case 7:
+                      //      valor = 133.99 * quant;
+                       //     custo = valor * 0.946;
+                       //     custot = valor - custo;
+                        //    imposto = custot * 0.20;
+                        //    ll = (valor - custo) - imposto;
+
+                       //     Console.WriteLine("O lucro liquido é de: R$" + ll);
+                        //    break;
+                //    }
+                    
+
+                   // break;
+
+               // default:
+              //      Console.WriteLine("opção invalida!");
+               //     break;
+
+            //Console.ReadKey();
 
 
         }
